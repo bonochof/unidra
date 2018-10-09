@@ -105,7 +105,12 @@ ModelImporter:
     4300000: LOWDRG
     9500000: //RootNode
     13700000: LOWDRG
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dragon_col_001
+    second: {fileID: 2100000, guid: 1aae31632cc03b245b417855dea4243a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

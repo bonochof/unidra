@@ -98,7 +98,27 @@ ModelImporter:
     4300004: Player
     9500000: //RootNode
     13700000: Player
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_body
+    second: {fileID: 2100000, guid: 3d463fa3aba1f1a4aa8c9bc22f3d9e04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_color
+    second: {fileID: 2100000, guid: 28f155d0e15a90246b63b2e58f27d6f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_hair
+    second: {fileID: 2100000, guid: 69dba01a3d562774f8178cb0f40e84f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_weapon
+    second: {fileID: 2100000, guid: e22e0e769ce19b843b2709a613f58eb5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
