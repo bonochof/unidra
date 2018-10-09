@@ -150,6 +150,11 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!4 &5787316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400044, guid: f1f47292153d6a147aedaa7c600830d5,
+    type: 3}
+  m_PrefabInternal: {fileID: 824719088}
 --- !u!114 &5787317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +381,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -443,6 +449,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a26e26a1fc9c74bbf31be5f5610c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 5
+  horizontalAngle: 0
+  rotAngle: 180
+  verticalAngle: 10
+  lookTarget: {fileID: 5787316}
+  offset: {x: 0, y: 1.5, z: 0}
 --- !u!1001 &824719088
 Prefab:
   m_ObjectHideFlags: 0
